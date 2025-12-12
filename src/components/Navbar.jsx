@@ -18,6 +18,7 @@ const Navbar = () => {
         <div className="text-white font-bold text-lg md:text-xl">Shubham</div>
         <div className="flex gap-6 md:gap-10 text-gray-300">
           <a href="#about" className="hover:text-white">About</a>
+          <a href="#skills" className="hover:text-white">Skills</a>
           <a href="#projects" className="hover:text-white">Projects</a>
           <a href="#contact" className="hover:text-white">Contact</a>
         </div>
