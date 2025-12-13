@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="bg-[#05050A] text-gray-400 border-t border-gray-800">
       <div className="max-w-7xl mx-auto px-6 py-6 flex flex-col md:flex-row items-center justify-between gap-6">
 
-        {/* Left: Name & Role */}
+     
         <div className="text-center md:text-left">
           <h3 className="text-white text-lg font-semibold">
             Shubham Patil
@@ -16,7 +16,7 @@ const Footer = () => {
           </p>
         </div>
 
-        {/* Center: Contact */}
+     
         <div className="flex items-center gap-6 text-lg">
           <a
             href="mailto:shubhampatil6502@gmail.com"
@@ -47,7 +47,7 @@ const Footer = () => {
           </a>
         </div>
 
-        {/* Right: Copyright */}
+      
         <div className="text-sm text-center md:text-right">
           © {new Date().getFullYear()} Shubham Patil. <br />
           All rights reserved.

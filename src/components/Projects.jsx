@@ -43,33 +43,33 @@ const Projects = () => {
     <section id="projects" className="bg-[#05050A] text-white py-24">
       <div className="max-w-7xl mx-auto px-6">
 
-        {/* Section Heading */}
+ 
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-16">
           My <span className="text-purple-400">Projects</span>
         </h2>
 
-        {/* Projects Grid */}
+     
         <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-3">
           {projects.map((project, index) => (
             <div
               key={index}
               className="relative group rounded-xl overflow-hidden shadow-lg"
             >
-              {/* Background Image */}
+             
               <img
                 src={project.image}
                 alt={project.title}
                 className="w-full h-72 object-cover transform group-hover:scale-110 transition duration-500"
               />
 
-              {/* Overlay */}
+              
               <div className="absolute inset-0 bg-black/70 opacity-0 group-hover:opacity-100 transition duration-300 flex flex-col justify-center items-center text-center px-6">
 
                 <h3 className="text-xl font-bold mb-3">
                   {project.title}
                 </h3>
 
-                {/* Skills */}
+             
                 <div className="flex flex-wrap justify-center gap-2 mb-5">
                   {project.skills.map((skill, i) => (
                     <span
@@ -81,7 +81,7 @@ const Projects = () => {
                   ))}
                 </div>
 
-                {/* Buttons */}
+              
                 <div className="flex gap-4">
                 {project.live &&( <a
                     href={project.live}

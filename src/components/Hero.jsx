@@ -8,7 +8,7 @@ const Hero = () => {
 
       <div className="w-full flex flex-col md:flex-row items-center lg:h-screen md:px-16 mt-20 md:mt-0 bg-[#05050A] text-white relative overflow-hidden justify-between px-6 gap-16">
 
-        {/* LEFT TEXT */}
+        {/* LEFT*/}
         <div className="md:w-1/4 text-center md:text-left">
           <p className="text-purple-400 text-lg mb-2 font-medium">
             Hello, I'm
@@ -36,7 +36,7 @@ const Hero = () => {
           </div>
         </div>
 
-        {/* CENTER IMAGE */}
+        {/* CENTER  */}
         <div className="md:w-2/4 relative flex justify-center">
           <div className="absolute w-64 h-64 md:w-80 md:h-80 bg-purple-700 rounded-full opacity-40 blur-[100px] -translate-y-1/4"></div>
 
@@ -53,19 +53,19 @@ const Hero = () => {
           />
         </div>
 
-        {/* RIGHT TEXT */}
+        {/* RIGHT */}
         <div className="md:w-1/4 text-center md:text-left flex flex-col justify-center">
           <p className="text-purple-300 font-semibold mb-2 text-lg">
             MCA Student
           </p>
 
-          {/* Typing Animation */}
+       
           <h2 className="text-2xl md:text-3xl font-bold text-gray-200 mb-4">
             <span className="typing block">Software Engineer &</span>
             <span className="typing delay block">Full-Stack Developer</span>
           </h2>
 
-          {/* Resume Button (mobile-safe) */}
+        
           <a
             href="https://drive.google.com/file/d/19CZLsVWyC2llvNZDRl8I-552vlbzMZ0W/view"
             target="_blank"

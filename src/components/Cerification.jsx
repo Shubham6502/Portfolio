@@ -19,6 +19,7 @@ const Cerification=()=> {
      id="certificates" 
     className="w-full relative bg-black text-white py-24 px-6 md:px-20 overflow-hidden">
 
+        
         <div className="text-3xl text-center font-bold mb-16 text-purple-400">
             Certificates
         </div>

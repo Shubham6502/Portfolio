@@ -41,14 +41,14 @@ const Contact = () => {
     <section id="contact" className="bg-[#05050A] text-white py-24">
       <div className="max-w-4xl mx-auto px-6">
 
-        {/* Heading */}
+       
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
           Get in <span className="text-purple-400">Touch</span>
         </h2>
 
         <div className="flex flex-col md:flex-row gap-10">
 
-          {/* Left: Contact Info */}
+          {/* Left*/}
           <div className="md:w-1/2 flex flex-col gap-6">
             <p className="text-gray-300">
               I'm open for opportunities and collaborations. Reach out using the form or through my contact links.
@@ -84,7 +84,7 @@ const Contact = () => {
             </div>
           </div>
 
-          {/* Right: Contact Form */}
+          {/* Right */}
           <div className="md:w-1/2">
             {submitted ? (
               <div className="bg-purple-700/20 p-6 rounded text-center text-purple-300">

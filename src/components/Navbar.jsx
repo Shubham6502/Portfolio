@@ -8,7 +8,7 @@ const Navbar = () => {
     <>
       <div className="absolute top-0 w-full flex justify-between items-center px-6 md:px-10 py-4 md:py-6 z-20">
         
-        {/* Logo */}
+        
         <div className="text-white font-bold text-lg md:text-xl">Shubham</div>
 
         {/* Desktop Menu */}
@@ -25,7 +25,7 @@ const Navbar = () => {
         </div>
       </div>
 
-      {/* Mobile Dropdown Menu */}
+      
       {open && (
         <div className="md:hidden absolute top-16 left-0 w-full bg-black bg-opacity-80 text-gray-300 flex flex-col items-center gap-6 py-6 z-10 transition-all">
           <a href="#about" className="hover:text-white" onClick={() => setOpen(false)}>About</a>
