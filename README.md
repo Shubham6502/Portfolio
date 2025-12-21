@@ -4,11 +4,7 @@ This is my personal portfolio website built using **React**, **Vite**, and **Tai
 It showcases my projects, skills, and experience in a clean and modern UI.
 
 ---
-<<<<<<< HEAD
-Link - https://shubham6502.github.io/Portfolio/
-=======
-LINK- https://shubham6502.github.io/Portfolio/
->>>>>>> d0f8269d9b5a93a6d9007764d1983920d4559769
+LINK- https://shubham6502.github.io/Portfolio/ d0f8269d9b5a93a6d9007764d1983920d4559769
 
 ## 🚀 Tech Stack
 
